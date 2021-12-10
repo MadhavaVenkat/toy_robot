@@ -1,0 +1,23 @@
+<h1> Create Order</h1>
+
+
+ 
+<%= form_with model: @robot do |form| %>
+  <div>
+    <%=form.label :place %>
+    <%= form.text_field :place%>
+  </div>
+  <div>
+    <%=form.label :command %>
+    <%= form.text_field :command%>
+  </div>
+  <div>
+    <%= form.submit %>
+  </div>
+<%end%>
+
+
+
+
+<%= @para %>
+

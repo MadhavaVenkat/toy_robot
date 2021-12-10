@@ -1,0 +1,7 @@
+<% unless @intial_commands.nil? %>
+  <h1>Initial Command: <%= @intial_commands  %> </h1>
+<% end %>
+
+<h1> <%= @placing_robot %> </h1>
+<h1> <%= @report if @robot_falling.nil? %> </h1>
+<h1> <%= @robot_falling %> </h1>
